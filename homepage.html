@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="homepage.css">
+    <title>Document</title>
+
+    
+</head>
+<style>
+    .footer{
+        background-image: url("images/backcontact.jfif");
+       }
+    .icon1{
+        color: black;
+    }
+    
+</style>
+<body>
+    <header>
+       <img src="images/logocodaweb.png" alt="" class="img"> 
+       <div id="clock"  >8:10:45</div>
+        <nav class="navigation">
+            <a href="">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="logout.php">Logout</a>
+        </nav>
+    </header>
+<section class="main" id="home">
+   
+     
+</section>
+<section >
+
+    <div class="content">
+        
+       
+        <div class="card">
+            <img src="pic/offering.png" alt="">
+                    <a href="offerings.html">Offerings</a>
+                    <p>Discover the offerings.</p>
+                </div>
+            
+           <div class="card">
+            <img src="images/2.png" alt="">
+                    <a  href="courses.html">Courses</a>
+                    <p>Discover the courses.</p>
+                </div>
+             
+            <div class="card">
+                <img src="images/3.png" alt="">
+            <div class="dropup" >
+                <p  class="dropbtn">Applying</p>	
+                <div class="dropup-content">
+                        <a class="content" href="loginTeacher.php">Teachers</a>
+                        <a class="content" href="loginStudent.php">Students</a>
+                </div>
+                        <p>Discover out how to apply.</p>
+                    </div>
+                </div>
+   </div>
+</section>
+
+<footer class="footer">
+    <div class="icon1">
+      <i class="fa-solid fa-location-dot"></i> Beqaa, Rashaya <br><br>
+      <i class="fa-solid fa-envelope"></i><a href="mailto:codaweb@gmail.com" class="email"> codaweb@gmail.com</a><br><br>
+       
+    </div>
+      <div class="text">
+      
+      </p>
+     </div>
+    
+   
+  </footer>
+</body>
+</html>
+
+
+<script>
+    setInterval(showTime, 1000);
+	function showTime() {
+		let time = new Date();
+		let hour = time.getHours();
+		let min = time.getMinutes();
+		let sec = time.getSeconds();
+		let am_pm = "AM";
+	
+		if (hour > 12) {
+			hour -= 12;
+			am_pm = "PM";
+		}
+		if (hour == 0) {
+			hr = 12;
+			am_pm = "AM";
+		}
+	
+		hour = hour < 10 ? "0" + hour : hour;
+		min = min < 10 ? "0" + min : min;
+		sec = sec < 10 ? "0" + sec : sec;
+	
+		let currentTime = hour + ":"+ min + ":" + sec + am_pm;
+	
+		document.getElementById("clock")
+			.innerHTML = currentTime;
+	}
+	
+    showTime();
+
+var i=0;
+setInterval(function()
+{
+    document.getElementById('slidemdiv').style.transform="translateX(-"+i+"%)";
+    if(i>=(25*3))
+        i=0;
+    else
+        i+=25;
+},3000);
+
+setInterval(function()
+{ 	document.getElementById('d4').style.backgroundColor="transparent";
+    if(i==25)
+    document.getElementById('d1').style.backgroundColor="white";
+
+    else if(i==50){
+    document.getElementById('d2').style.backgroundColor="white";
+    document.getElementById('d1').style.backgroundColor="transparent";	
+}
+    else if(i==75){
+    document.getElementById('d3').style.backgroundColor="white";
+    document.getElementById('d2').style.backgroundColor="transparent";
+    document.getElementById('d1').style.backgroundColor="transparent";			
+    }
+
+    else if(i==0){
+    document.getElementById('d4').style.backgroundColor="white";
+    document.getElementById('d3').style.backgroundColor="transparent";
+    document.getElementById('d2').style.backgroundColor="transparent";
+    document.getElementById('d1').style.backgroundColor="transparent";			
+    }
+    
+
+},3000);
+
+</script>

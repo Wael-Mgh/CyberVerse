@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="contact.css">
+   
+
+  </head>
+<body>
+<!-- Header for home about etc -->
+<div id="head">
+
+	   <div class="navhead"> 
+	     <p class="header"><a class="lin" href="homepage.html">Home</a></p>
+	      <p class="header"><a class="lin" href="about.html">About</a></p>
+	      <p class="header"><a class="lin" href="contact.html">Contact Us</a></p>  
+		  <p class="header"><a class="lin" href="logout.php">Logout</a></p>    
+	  </div>
+</div>
+  <div id="dlog"><img id="logo" src="images/logocodaweb.png">
+  </div>
+
+  <form id="f1"  action="contact.html">
+	<input class="inps" type="text" name="name" placeholder="Enter Your Name"><br>
+	<input class="inps" type="email" name="email" placeholder="Email"><br>
+	<textarea class="inps" name="message" placeholder="Enter Your message"></textarea>
+	<button id="sub" onclick="messages()">Submit</button>
+  </form>
+ 
+<div id="main2">
+	<div id="p2">
+	  <h1>GET IN TOUCH!!</h1>
+	  <p id="p22">You can reach us by whatsapp or by email us</p>
+    <div id="dimg"><a href="#"><img class="ico" src="images/email-icon.png"></a>
+<a href="#"><img class="ico" src="images/watas.png"></a>
+</div>
+    </div>
+
+
+ <div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2 id="tp">Tap here</h2>
+      <img id="im" src="images/tap.png">
+    </div>
+    <div class="flip-box-back">
+      <h2>CALL US</h2>
+             <a class="pho" href="https://wa.me/0096171591233">78 968 038</a><br>
+             <a class="pho" href="https://wa.me/0096176382503">01-000000</a>
+            <h3 id="loc">LOCATION</h3>
+            <p>American University In Beirut </p>      
+    </div>
+  </div>
+ </div>
+</div>
+
+</body>
+<script>
+  function messages(){
+    alert("Your Message Received")
+  }
+</script>
+</html>

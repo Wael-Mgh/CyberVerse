@@ -1,0 +1,104 @@
+#abtdiv{
+ width: fit-content; /*this means that the box will use the available space, but never more than */
+background: rgba(250,250,250,0.7);
+border-left-style: solid;
+border-color: #1869c6; 
+border-width: 7px;
+padding:20px;
+border-radius: 15px;
+
+}
+#abt{
+
+ font-size: 30px;
+
+}
+.maind{
+	display: flex;
+
+	
+}
+#p1{
+
+font-size: 18px;
+text-decoration: underline;
+font-weight: bold;
+}
+.p2{
+
+font-size: 17px;
+font-weight: bold;	
+margin-left: 10px;
+padding-top: 30px;
+padding-left: 10px;
+
+}
+#p2{
+
+font-size: 17px;
+font-weight: bold;	
+margin-left: 10px;
+padding-top: 30px;
+padding-left: 50px;
+}
+.dimg{
+padding-top: 5px;
+}
+.logos{
+	width: 100px;
+	margin-top: 20px;
+}
+#logos{
+	width: 60px;
+}
+
+#main{
+	display: flex;
+	width: 70%;
+	margin: auto;
+	margin-top: 50px;
+
+}
+#main2{
+	margin-left: 50px;
+	width: 40%;
+   background: rgba(250,250,250,0.7);
+   border-left-style: solid;
+   border-color: #1869c6; 
+   border-width: 7px;
+   padding:20px;
+   border-radius: 15px; 
+  text-align: justify;
+}
+#logo{
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 100px; 
+}
+#tit{
+	text-decoration: underline;
+}
+@media screen and (max-width: 1200px)
+{
+
+#main{
+  display: block;
+}
+#abtdiv{
+margin: auto;
+width: 95%;
+margin-top: 20px;
+margin-bottom: 30px;
+
+}
+#main2{
+	width: 95%;
+	margin: auto;
+}
+#navhead{
+  display: none;
+}
+
+}
+

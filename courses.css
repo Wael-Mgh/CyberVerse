@@ -1,0 +1,107 @@
+.maindiv {
+  display: flex;
+  margin-left: 10px;
+
+
+}
+.wrapper{
+  transition-duration: 0.5s;
+}
+#drp{
+  transform: rotate(90deg);
+  transition-duration: 0.5s;
+}
+span{
+  font-size: 30px;
+  color: #1869c6;  
+}
+.firstdiv {
+  flex: 1;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.seconddiv {
+  flex: 2.3;
+  background : rgba(250,250,250,0.8);
+  border-radius: 5px;
+  margin-top: 3%;
+  margin-right: 4%;
+  padding: 10px;
+  font-size: 15px;
+  text-align: justify;
+}
+#prg{
+  background : rgba(250,250,250,0.8);
+  border-radius: 5px;
+  margin-top: 3%;
+  margin-right: 4%;
+  padding: 10px;
+  font-size: 15px;
+  text-align: justify; 
+  margin-left: 3%;
+}
+.tit{
+  font-size: 30px;
+  color: #1869c6;
+  padding-bottom: 5px;
+  height: 10%;
+}
+#eng{
+
+  background : rgba(250,250,250,0.8);
+  border-radius: 5px;
+  margin-left: 31%;
+  padding: 15px;
+  font-size: 15px;
+  text-align: justify; 
+  margin-bottom: 10%;
+  margin-top: 20px;
+  margin-right: 4%;
+
+}
+.seconddiv h1 {
+  font-size: 30px;
+  color: #1869c6;
+  margin-bottom: 20px;
+}
+.courses {
+  display: none;
+
+}
+#Python {
+  display: block;
+}
+.course-description {
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-left: 10px; 
+
+}
+
+@media screen and (max-width: 1200px)
+{
+
+#navhead{
+  display: none;
+}
+#eng{
+  margin: auto; 
+  width: 95%;
+  margin-top: 30px;
+}
+.seconddiv{
+  width: 95%;
+  margin: auto;
+  margin-top: 30px;
+}
+#prg{
+  width: 95%;
+  margin: auto;
+  margin-top: 30px; 
+
+}
+}
+
+
+
+

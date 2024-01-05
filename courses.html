@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <title>Our Courses</title>
+    <link rel="stylesheet" href="courses.css">
+    <link rel="stylesheet" type="text/css" href="headandhome.css">
+
+  </head>
+  <body>
+    <div id="head">
+      
+      <div class="navhead"> 
+      <p class="header"><a class="lin" href="homepage.html">Home</a></p>
+
+      <p class="header"><a class="lin" href="about.html">About</a></p>
+      <p class="header"><a class="lin" href="contact.html">Contact Us</a></p>
+      <p class="header"><a class="lin" href="logout.php">Logout</a></p> 
+      </div>  
+</div>
+  <div id="dlog"><img id="logo" src="images/logocodaweb.png">
+  </div>  
+    <div id="prg">  
+    <h2 class="tit">Programming</h2>
+    <p>In this training your are going to learn  two courses. Programming courses:  Python, Web developing  (HTML, CSS, JavaScript, PHP, and Jquery).Inaddition English courses. </span></p>
+    </div>
+    <div class="maindiv"> 
+    
+    <div class="firstdiv"> 
+    <nav id="navigation">
+      <div class="drop-btn">
+
+        Languages <span class="fas fa-caret-down" onclick="drop('wrapper','drp',290)" id="drp">➤</span>
+      </div>
+      <div class="tooltip"></div>
+      <div class="wrapper" id="wr">
+        <ul class="menu-bar">
+          <li onclick="replace('HTMLCSS','Javascript','PHP','jQuery','Python')" class="navto"><a href="#">
+            <div class="icon">
+              <img src="images/python.png">
+              </div>
+            Python </a></li>
+          <li  onclick="replace('Python','Javascript','PHP','jQuery','HTMLCSS')" class="navto"><a href="#">
+            <div class="icon">
+              <img src="images/css_html.png">
+              </div>
+            HTML & CSS
+          </a></li>
+          <li onclick="replace('Python','HTMLCSS','PHP','jQuery','Javascript')" class="navto"><a href="#">
+            <div class="icon">
+              <img src="images/javascript.png"></div>
+            Javascript 
+          </a></li>
+          <li onclick="replace('Python','HTMLCSS','Javascript','jQuery','PHP')" class="navto"><a href="#">
+            <div class="icon">
+              <img src="images/php.png"></div>
+            PHP </a></li>
+          
+          <li onclick="replace('Python','HTMLCSS','Javascript','PHP','jQuery')" class="navto"><a href="#">
+            <div class="icon">
+              <img src="images/jQuery.png"></div>
+            jQuery </a></li></ul>
+          </ul>
+
+      </div>
+    </nav>
+    </div>
+    <div class="seconddiv">
+        <div id="Python" class="courses"> 
+          <h1>Python</h1>
+          <p class="course-description"> Python is a general-purpose, versatile, and powerful programming language. It’s a great first language because it’s concise and easy to read. Whatever you want to do, Python can do it. From web development to machine learning to data science, Python is the language for you. <br> Why we love it: </p>
+            <ul class="course-description">  
+              <li class="course-description">Great first language</li>
+              <li class="course-description">Large programming community  </li>
+              <li class="course-description">Excellent online documentation</li>
+              <li class="course-description">Endless libraries and packages  </li>
+              <li class="course-description">World-wide popularity  </li>
+              <li class="course-description">Powerful and flexible  </li>
+            </ul>
+
+        </div> 
+
+
+          <div id="HTMLCSS" class="courses"> 
+          <h1>HTML & CSS </h1>
+          <p class="course-description"> HTML is the foundation of all web pages. It defines the structure of a page, while CSS defines its style. HTML and CSS are the beginning of everything you need to know to make your first web page! Learn both and start creating amazing websites. <br> Why we love it: </p>
+            <ul class="course-description">  
+              <li class="course-description">Power-couple</li>
+              <li class="course-description">Beginner-friendly</li>
+              <li class="course-description">Builds simple websites</li>
+              <li class="course-description">Portfolio-building</li>
+              <li class="course-description">Web literacy</li>
+            </ul>
+
+        </div> 
+
+          <div id="Javascript"class="courses">
+          <h1>Javascript</h1>
+          <p class="course-description"> JavaScript is a fun and flexible programming language. It’s one of the core technologies of web development and can be used on both the front-end and the back-end. <br> Why we love it: </p>
+            <ul class="course-description">  
+              <li class="course-description">Versatile and robust</li>
+              <li class="course-description">Front-End friendly</li>
+              <li class="course-description">Back-End friendly</li>
+              <li class="course-description">Enables web applications</li>
+              <li class="course-description">Game Development</li>
+              <li class="course-description">Mobile Apps</li>
+            </ul>
+
+        </div> 
+          <div id="PHP"class="courses"> 
+          <h1>PHP </h1>
+          <p class="course-description"> PHP is a general-purpose scripting language widely used as a server-side language for creating dynamic web pages. Though its reputation is mixed, PHP is still extremely popular and is used in over 75% of all websites where the server-side programming language is known. <br> Why we love it: </p>
+            <ul class="course-description">  
+              <li class="course-description">Scalable and flexible</li>
+              <li class="course-description">Great community</li>
+              <li class="course-description">Open source</li>
+              <li class="course-description">Fast and dynamic</li>
+              <li class="course-description">Used everywhere</li>
+            </ul>
+
+        </div> 
+          <div id="jQuery"class="courses"> 
+          <h1>jQuery </h1>
+          <p class="course-description">jQuery is a lightweight, "write less, do more", JavaScript library.
+          The purpose of jQuery is to make it much easier to use JavaScript on your website.
+          jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code.
+          jQuery also simplifies a lot of the complicated things from JavaScript, like AJAX calls and DOM manipulation.
+           <br> The jQuery library contains the following features: </p>
+            <ul class="course-description">  
+              <li class="course-description">HTML/DOM manipulation</li>
+              <li class="course-description">CSS manipulation</li>
+              <li class="course-description">HTML event methods</li>
+              <li class="course-description">Effects and animations</li>
+              <li class="course-description">AJAX</li>
+              <li class="course-description">Utilities</li>
+            </ul>           
+
+        </div> 
+    </div>
+</div>
+   <div id="eng">
+    <h1 class="tit">English Language</h1>
+    <p>English language plays an essential role in our lives as it helps in communication. It is the main language for studying any subject all over the world and one of these subjects is programming.<br> English is important for students as it broadens their minds, develops emotional skills, improve the quality of life by providing job opportunities.</p>
+    </div> 
+
+    <script>
+    var dropped=true;
+    function drop(cl,id,h)
+    {
+      if(dropped)
+      {
+          document.getElementsByClassName(cl)[0].style.display='block';
+          document.getElementsByClassName(cl)[0].style.visibility='hidden';
+          document.getElementsByClassName(cl)[0].style.opacity='0';
+          document.getElementsByClassName(cl)[0].style.height='0px';
+          document.getElementById(id).style.transform="rotate(90deg)";
+        setTimeout(function(){
+          document.getElementsByClassName(cl)[0].style.visibility='visible';
+          document.getElementsByClassName(cl)[0].style.opacity='1';
+          document.getElementsByClassName(cl)[0].style.height=h+"px";
+          document.getElementById(id).style.transform="rotate(270deg)";
+          dropped=false;
+        },50);
+      }
+      else
+      {
+        document.getElementsByClassName(cl)[0].style.visibility='hidden';
+        document.getElementsByClassName(cl)[0].style.opacity='0';
+        document.getElementsByClassName(cl)[0].style.height='0px';
+        document.getElementById(id).style.transform="rotate(90deg)";
+        dropped=true;
+      }
+    }
+
+
+function replace( hide1,hide2,hide3,hide4,show ) {
+  document.getElementById(hide1).style.display="none";
+  document.getElementById(hide2).style.display="none";
+  document.getElementById(hide3).style.display="none";
+  document.getElementById(hide4).style.display="none";
+  document.getElementById(show).style.display="block"; 	/*Element is rendered as a block-level element*/
+}
+    </script>
+
+  </body>
+</html>
